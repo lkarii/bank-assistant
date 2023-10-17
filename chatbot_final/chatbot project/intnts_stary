@@ -1,0 +1,316 @@
+{
+   "intents": [
+      {
+         "tag": "greeting",
+         "patterns": [
+            "Hello",
+            "Hi",
+            "Hey",
+            "Good morning"
+         ],
+         "responses": [
+            "Hello! How may I assist you?",
+            "Hi there! What can I do for you?",
+            "Good morning! How can I help you?"
+         ]
+      },
+      {
+         "tag": "options",
+         "patterns": [
+            "How you could help me?",
+            "What you can do?",
+            "What help you provide?",
+            "How you can be helpful?",
+            "What support is offered"
+         ],
+         "responses": [
+            "I can assist you with a variety of banking related tasks such as checking your account balance, making transfers, and applying for credit cards or loans. Just let me know what you need help with!",
+            "I am here to provide support for all your banking needs. From account management to loan applications, I can help you navigate our services and make the most of your banking experience.",
+            "As a banking assistant, I can provide assistance with a wide range of tasks such as managing your account, making payments, and applying for new products. Feel free to ask me anything you need help with!",
+            "I offer support for a variety of banking needs, including account management, loan applications, and product inquiries. Whether you have a question or need help with a specific task, I am here to assist you in any way possible.",
+            "I am here to provide you with support and assistance for any banking related tasks or inquiries you may have. Just let me know what you need help with, and I'll do my best to assist you."
+         ]
+      },
+      {
+         "tag": "login",
+         "patterns": [
+            "Login",
+            "Log in",
+            "Sign in"
+         ],
+         "responses": [
+            "Please enter your login and password",
+            "Enter your login and password to log in"
+         ]
+      },
+      {
+         "tag": "registration",
+         "patterns": [
+            "Register",
+            "Sign up",
+            "Registration"
+         ],
+         "responses": [
+            "Please enter your registration details",
+            "Enter your details to register"
+         ]
+      },
+      {
+         "tag": "logout",
+         "patterns": [
+            "Logout",
+            "Log out",
+            "Sign out"
+         ],
+         "responses": [
+            "Goodbye!"
+         ]
+      },
+      {
+         "tag": "bank_search",
+         "patterns": [
+            "Find me a bank",
+            "Find bank",
+            "List of banks nearby",
+            "Locate bank",
+            "Search bank"
+         ],
+         "responses": [
+            "To search for a bank near you, please provide us the name of the bank you are looking for.",
+            "Sure! What is the name of the bank you want me to search for?",
+            "I can help you find a bank. What is the name of the bank you are interested in?",
+            "Please provide me the name of the bank you want to locate."
+         ]
+      },
+
+      {
+         "tag": "balance",
+         "patterns": [
+            "Is there any money left in my account?",
+            "account balance total",
+            "Where can I see my account balance?",
+            "Is my account almost empty?",
+            "How much do I have in my account?",
+            "I want to use my credit on the order, how much do I have left?",
+            "How can I find my credit total?",
+            "credit left in my account",
+            "Do I need to top up my account balance?",
+            "I want to see my balance"
+         ],
+         "responses": [
+            "To check your account balance, you can log in to your online banking account or mobile app. You can also visit one of our branches and inquire with a representative.",
+            "Your account balance can be found in your online banking account or mobile app. Alternatively, you can visit one of our branches and request this information from a representative.",
+            "Your account balance is the amount of money you have available in your account at a given time. You can check this balance online, through our mobile app, or by visiting one of our branches."
+         ]
+      },
+      {
+         "tag": "transaction_history",
+         "patterns": [
+            "Transaction history",
+            "Recent transactions",
+            "Show history"
+         ],
+         "responses": [
+            "Here is a list of your recent transactions: [transaction list]",
+            "Your transaction history: [transaction list]"
+         ]
+      },
+      {
+         "tag": "transfer",
+         "patterns": [
+            "Transfer",
+            "Make a transfer",
+            "Send money"
+         ],
+         "responses": [
+            "Please enter the recipient's details and transfer amount",
+            "Enter recipient details and transfer amount you want to make"
+         ]
+      },
+      {
+         "tag": "transfer_confirmation",
+         "patterns": [
+            "Are you sure you want to make a transfer?",
+            "Confirm transfer"
+         ],
+         "responses": [
+            "Are you sure you want to make a transfer of [amount] to [recipient]?",
+            "Are you sure you want to make the transfer?"
+         ]
+      },
+      {
+         "tag": "password_confirmation",
+         "patterns": [
+            "Confirm password",
+            "Is it really me?"
+         ],
+         "responses": [
+            "Please enter your password to confirm",
+            "Can you please provide your password to confirm your identity?"
+         ]
+      },
+      {
+         "tag": "incorrect_login",
+         "patterns": [
+            "Incorrect login details",
+            "Invalid credentials",
+            "Unable to log in"
+         ],
+         "responses": [
+            "Incorrect login details. Please try again.",
+            "Invalid credentials. Please try again."
+         ]
+      },
+      {
+         "tag": "Banking_PIN_Issue",
+         "patterns": [
+            "I cannot remember the personal identification number on my card",
+            "I cannot remember my card's PIN",
+            "What should I do if I have forgotten my credit card PIN?",
+            "I don't have my credit card PIN",
+            "A PIN didn't come with my credit card",
+            "I didn't get a PIN with my credit card",
+            "How can I find out the chip code for my card",
+            "I forgot the chip code for my credit card",
+            "can you tell me what my card PIN is",
+            "My card's secure code has been locked",
+            "cannot remember the pin on my card"
+         ],
+         "responses": [
+            "I'm sorry to hear that. You can reset your PIN by contacting your bank's customer service.",
+            "Unfortunately, I cannot provide you with your PIN for security reasons. You can contact your bank to reset it.",
+            "If you've forgotten your credit card PIN, you can reset it by contacting your bank's customer service.",
+            "If you don't have your credit card PIN, you can contact your bank to have a new one sent to you.",
+            "If you didn't receive a PIN with your credit card, you can contact your bank to have one sent to you.",
+            "To find out the chip code for your card, you can contact your bank's customer service.",
+            "If you've forgotten the chip code for your credit card, you can contact your bank's customer service.",
+            "For security reasons, I cannot tell you what your card's PIN is. You can contact your bank to reset it.",
+            "If your card's secure code has been locked, you can contact your bank's customer service to unlock it.",
+            "If you cannot remember the PIN on your card, you can reset it by contacting your bank's customer service."
+         ]
+      },
+      {
+         "tag": "Banking_Switch_Cards",
+         "patterns": [
+            "change credit card without applying again",
+            "I applied for a wrong credit card and now want to change to another card",
+            "I signed up for the wrong card can I change to a different credit card",
+            "can I change credit cards",
+            "switch to another bank credit card",
+            "change credit card without filling an application",
+            "already have a card want a better one",
+            "can I change my card to a Mastercard",
+            "can I change my card to a Visa",
+            "can I change my card to American Express",
+            "can my card be transferred to another credit card",
+            "cancel my current credit card and replace it with another",
+            "can I transfer to a low rate credit card",
+            "can I switch between credit cards"
+         ],
+         "responses": [
+            "Yes, you can switch to a different credit card. Please contact our customer service for assistance with the process.",
+            "Certainly, we can assist you with changing your credit card. Please get in touch with our customer service to initiate the process.",
+            "Absolutely, you can change your credit card to a different type. Please reach out to our customer service for guidance on the process.",
+            "Yes, it's possible to switch between credit cards. Please contact our customer service for assistance with the process.",
+            "To switch to another bank credit card, you can apply for the desired credit card and once approved, you can close your current credit card.",
+            "If you wish to change your credit card without filling out an application, please get in touch with our customer service.",
+            "If you already have a credit card and want a better one, please apply for the desired credit card and once approved, you can close your current credit card.",
+            "Yes, it's possible to change your card to a Mastercard. Please get in touch with our customer service for guidance on the process.",
+            "Yes, it's possible to change your card to a Visa. Please contact our customer service for assistance with the process.",
+            "Yes, it's possible to change your card to American Express. Please get in touch with our customer service for guidance on the process.",
+            "It's not possible to transfer your card to another credit card, but you can apply for the desired credit card and once approved, you can close your current credit card.",
+            "Yes, you can cancel your current credit card and replace it with another. Please contact our customer service for assistance with the process.",
+            "Yes, it's possible to transfer to a low rate credit card. Please apply for the desired credit card and once approved, you can close your current credit card.",
+            "Yes, you can switch between credit cards. Please contact our customer service for assistance with the process."
+         ]
+      },
+      {
+         "tag": "Banking_Card_Application",
+         "patterns": [
+            "need a credit card immediately",
+            "want to apply for a credit card",
+            "I want a credit card",
+            "how do I get a credit card",
+            "I would like to apply for a credit card",
+            "I want a new credit card",
+            "How do I apply for a credit card?",
+            "how can I obtain a credit card",
+            "where do I go to get a credit card",
+            "how do i go about getting a credit card?",
+            "I need to apply for a credit card",
+            "Can I apply for credit cards",
+            "help me open credit card",
+            "I need a credit card, how do I get one?",
+            "i want to apply for a new credit to replace my existing one"
+         ],
+         "responses": [
+            "To apply for a new credit card, you can visit our bank's website and fill out the online form or visit one of our branches where our staff will assist you in the application process.",
+            "I am happy to assist you in applying for a new credit card. You can do this online on our website or at our branch. The application process is simple and transparent, and our staff will be happy to assist you with it.",
+            "If you need a credit card immediately, you can visit our branch and submit your application in person. For online applications, the application process may take a few business days."
+         ]
+      },
+      {
+         "tag": "balance",
+         "patterns": [
+            "I'm not sure which bills I've paid",
+            "where are my monthly statements",
+            "payment history",
+            "payment account statements",
+            "do you have a list of all my payments?",
+            "Where can I see past payments",
+            "can I see my payment from last year?",
+            "where can I see all my payments",
+            "do you have the monthly bills I paid",
+            "I need payment history for taxes",
+            "historic payments made"
+         ],
+         "responses": [
+            "You can view your payment history and account statements by logging into your online banking account or by contacting our customer service department. Your past payments and bills will be available there.",
+            "To access your payment history, log in to your online banking account and navigate to the 'Payment History' section. There, you can view all of your past payments and bills.",
+            "If you need a list of all the payments you've made, you can contact our customer service department and request a payment history report. This report will include all of your payments from the beginning of your account.",
+            "Your payment history and account statements are available in your online banking account. You can access them at any time and download them for your records.",
+            "If you need a record of your past payments for tax purposes, you can download your payment history and account statements from your online banking account. These records will include all the information you need to file your taxes."
+         ]
+      },
+      {
+         "tag": "Customer_Profile_Change_Details",
+         "patterns": [
+            "I got divorced and need to change my name",
+            "I moved and need to update my address",
+            "live in a new apartment",
+            "moved to a new address",
+            "how do I change my name",
+            "how can I change my address",
+            "I got married and want to update my name"
+         ],
+         "responses": [
+            "To update your personal details such as your name or address, please log in to your account online and go to the 'Profile' or 'Settings' section. From there, you should be able to make the necessary changes.",
+            "If you need to change your name or address, you can do so by visiting one of our branches or by contacting our customer service team. Please bring along your identification documents and any other relevant paperwork to complete the process.",
+            "To change your name or address, please contact our customer service team. They will be able to guide you through the process and help you update your details as quickly and easily as possible."
+         ]
+      },
+      {
+         "tag": "Payment_Payment_Installments",
+         "patterns": [
+            "can i pay quarterly",
+            "payment scheme",
+            "can i pay part of the bill",
+            "I can't pay it all at once",
+            "do i have to pay the full amount",
+            "i can't make the full payment",
+            "can i only pay some of this",
+            "can i pay in installments",
+            "can i pay monthly",
+            "can i make a part payment"
+         ],
+         "responses": [
+            "Yes, we offer payment schemes and installment plans that allow you to pay your bill in smaller amounts over time. Please contact our customer service team to discuss your options.",
+            "If you are unable to make the full payment at once, we offer installment plans that allow you to pay in smaller amounts over time. You can contact our customer service team to set up a payment plan that works for you.",
+            "Yes, you can pay in installments. Please contact our customer service team to set up a payment plan that suits your needs.",
+            "We understand that you may not be able to make the full payment at once, which is why we offer installment plans that allow you to pay in smaller amounts over time. Please contact our customer service team to discuss your options.",
+            "Yes, you can pay in installments or choose a payment scheme that suits your needs. Please contact our customer service team to set up a plan that works for you."
+         ]
+      }
+
+   ]
+}

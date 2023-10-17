@@ -1,0 +1,791 @@
+{
+   "intents": [
+      {
+         "tag": "greeting",
+         "patterns": [
+            "Hello",
+            "Hi",
+            "Hey",
+            "Good morning"
+         ],
+         "responses": [
+            "Hello! How may I assist you?",
+            "Hi there! What can I do for you?",
+            "Good morning! How can I help you?"
+         ]
+      },
+      {
+      "tag": "goodbye",
+      "patterns":
+         ["Goodbye","Bye", "See you later", "Take care", "Farewell", "Until next time"],
+      "responses":
+         [
+            "Goodbye! If you have any more questions in the future, feel free to ask.",
+            "Bye! Have a great day!",
+            "See you later! Don't hesitate to reach out if you need any further assistance.",
+            "Take care and have a wonderful day!",
+            "Farewell! We hope to see you again soon.",
+            "Until next time! Feel free to come back if you need any help."]
+      },
+      {
+         "tag": "thanks",
+         "patterns": [
+            "Thanks",
+            "Many thanks",
+            "Much appreciated",
+            "Grateful",
+            "I'm grateful",
+            "Thank you so much",
+            "Thank you kindly",
+            "I appreciate it",
+            "Many thanks for your help",
+            "I'm thankful for your assistance"
+         ],
+         "responses": [
+             "Goodbye! If you have any more questions in the future, feel free to ask.",
+            "Bye! Have a great day!",
+            "See you later! Don't hesitate to reach out if you need any further assistance.",
+            "Take care and have a wonderful day!",
+            "Farewell! We hope to see you again soon.",
+            "Until next time! Feel free to come back if you need any help."
+         ]
+      },
+      {
+         "tag": "thanks",
+         "patterns":
+         [
+            "I don't need any more assistance, thank you",
+            "I'm okay now, thanks",
+            "I can handle it on my own",
+            "I'm all set now, thanks for offering",
+            "I'm grateful",
+            "I don't require further assistance, thanks",
+            "Thank you kindly",
+            "I don't need your help anymore",
+            "I'm fine without your help, thanks"
+         ],
+         "responses":
+         [
+            "That's great to hear! Let me know if you need anything in the future.",
+            "Alright, if you ever change your mind, feel free to reach out.",
+            "Not a problem. I'm here if you need any further assistance.",
+            "Perfect! Don't hesitate to ask if you need help later on.",
+            "Understood. Remember, I'm here if you need any support.",
+            "Got it. Feel free to reach out if you need assistance down the line.",
+            "I understand. Reach out if you need any help in the future.",
+            "No worries. Just let me know if you require any additional support.",
+            "Sounds good. Remember, I'm always here if you need anything.",
+            "Alright, glad you're all set. Don't hesitate to contact me if anything changes."
+         ]
+      },
+      {
+         "tag": "options",
+         "patterns": [
+            "How you could help me?",
+            "What you can do?",
+            "What help you provide?",
+            "How you can be helpful?",
+            "What support is offered"
+         ],
+         "responses": [
+            "I can assist you with a variety of banking related tasks such as checking your account balance, making transfers, and applying for credit cards or loans. Just let me know what you need help with!",
+            "I am here to provide support for all your banking needs. From account management to loan applications, I can help you navigate our services and make the most of your banking experience.",
+            "As a banking assistant, I can provide assistance with a wide range of tasks such as managing your account, making payments, and applying for new products. Feel free to ask me anything you need help with!",
+            "I offer support for a variety of banking needs, including account management, loan applications, and product inquiries. Whether you have a question or need help with a specific task, I am here to assist you in any way possible.",
+            "I am here to provide you with support and assistance for any banking related tasks or inquiries you may have. Just let me know what you need help with, and I'll do my best to assist you."
+         ]
+      },
+      {
+         "tag": "login",
+         "patterns": [
+            "I want login in my bank account",
+            "Login",
+            "Log in"
+         ],
+         "responses": [
+            "To log in to your bank account, you need to download the application of your bank. On the homepage, you will find two buttons: 'Log in' and 'Sign in.' Choose the appropriate option based on your requirements.",
+            "It is crucial to download the official bank application to access your account securely. Once installed, simply select either the 'Log in' or 'Sign in' button on the start page, depending on your specific requirements.",
+            "Accessing your bank account is made easy by downloading the bank's dedicated application. After installing it, you'll be greeted with a start page featuring two buttons: 'Log in' and 'Sign in.' Choose the option that suits your needs best to proceed with account access.",
+            "To log in to your bank application, please follow these instructions:\n\n1. Ensure that you have already downloaded and installed the official bank application from a trusted source, such as your device's app store.\n2. Locate the bank application icon on your device's home screen or in your app drawer, and tap on it to open the app.\n3. On the start page or the login page of the bank application, you will typically find two buttons: \"Log in\" and \"Sign in.\"\n4. If you already have an existing account with the bank, tap on the \"Log in\" button to proceed with your login.\n5. Enter your credentials accurately and securely. This usually includes your username or customer ID and your password. Some bank applications may also require additional security measures, such as a One-Time Password (OTP) or biometric authentication.\n6. After entering your login details, review them carefully to ensure they are correct. Double-check for any typographical errors.\n7. Once you are confident that the entered information is accurate, tap the \"Log in\" button or a similar option to initiate the login process.\n8. The bank application will verify your credentials and, if successful, grant you access to your account.\n9. You will then be redirected to your account dashboard or the main page of the bank application, where you can manage your finances, view transactions, and perform various banking activities."
+         ]
+      },
+      {
+         "tag": "registration",
+         "patterns": [
+            "Register",
+            "Sign up",
+            "Registration"
+         ],
+         "responses": [
+            "To sing in to your bank account, you need to download the application of your bank. On the homepage, you will find two buttons: 'Log in' and 'Sign in.' Choose the appropriate option based on your requirements.",
+            "To access your bank account, it is essential to download the official bank application. Once installed, you can find two buttons on the homepage: 'Sign in' and 'Log in.' Choose the appropriate option based on your specific requirements to proceed with signing in.",
+            "For secure access to your account, it is necessary to download the official bank application. After installation, you will be presented with a start page that offers two buttons: 'Sign in' and 'Log in.' Select the button that aligns with your needs to initiate the sign-in process."
+         ]
+      },
+      {
+         "tag": "logout",
+         "patterns": [
+            "Logout",
+            "Log out"
+         ],
+         "responses": [
+            "\nTo log out of your bank application, follow these steps:\n\n1. Open the bank application on your device.\n2. Navigate to the main menu or account settings. This can usually be found by tapping on a menu icon (three horizontal lines) or a profile/avatar icon.\n3. Look for an option labeled \"Logout,\" \"Sign out,\" or a similar term that indicates logging out of your account. It might be located within the account settings, security settings, or general settings.\n4. Tap on the \"Logout\" or \"Sign out\" option.\n5. A confirmation message may appear asking if you're sure you want to log out. Confirm your intention to log out by tapping \"Yes\" or \"Confirm.\"\n6. Once logged out, you will be directed to the login or start page of the bank application.",
+            "When you're ready to log out of your bank account, it's important to follow the proper steps within the downloaded bank application. Typically, you can find the 'Log out' option in the settings or account menu. Locate the appropriate section and choose the 'Log out' option to ensure your session ends securely.",
+            "To log out of your bank account, navigate to the settings or account menu within the bank application. Look for the 'Log out' option and select it to securely end your session.",
+            "Logging out of your bank account is a simple process within the dedicated bank application. Access the settings or account menu, where you'll usually find the 'Log out' option. Tap or select it to complete the logout process and safeguard your account."
+         ]
+      },
+      {
+         "tag": "bank_search",
+         "patterns": [
+            "Find me a bank",
+            "Find bank",
+            "List of banks nearby",
+            "Locate bank",
+            "Search bank",
+            "Address"
+         ],
+         "responses": [
+            "To search for a bank near you, please provide us the name of the bank you are looking for.",
+            "Sure! What is the name of the bank you want me to search for?",
+            "I can help you find a bank. What is the name of the bank you are interested in?",
+            "Please provide me the name of the bank you want to locate."
+         ],
+         "context": [
+            "search_bank_by_name"
+         ]
+      },
+
+      {
+         "tag": "bank_search_contact",
+         "patterns": [
+            "Find me a telephone number",
+            "Find contact",
+            "Search bank telephone",
+            "Contact"
+         ],
+         "responses": [
+            "To search for a contact, please provide us the name of the bank you are looking for.",
+            "Sure! What is the name of the bank you want me to search contact for?",
+            "I can help you find a telephone number bank. What is the name of the bank you are interested in?",
+            "Please provide me the name of the bank you want."
+         ],
+         "context": [
+            "search_bank_contact"
+         ]
+      },
+
+
+
+      {
+         "tag": "account_balance",
+         "patterns":
+            ["Check my account balance",
+               "Account balance",
+               "Balance inquiry",
+               "Is there any money left in my account?",
+               "account balance total",
+               "Where can I see my account balance?",
+               "Is my account almost empty?",
+               "How much do I have in my account?",
+               "I want to use my credit on the order, how much do I have left?",
+               "How can I find my credit total?",
+               "credit left in my account",
+               "Do I need to top up my account balance?",
+               "I want to see my balance"
+            ],
+         "responses":
+            [
+               "To check your bank account balance, there are several methods you can use, depending on the options provided by your bank:\n\n1. Online Banking: Most banks offer online banking services that allow you to check your account balance from the comfort of your own device. Visit your bank's website and log in to your account using your credentials. Once logged in, you should be able to view your account balance on the account overview or dashboard page.\n\n2. Mobile Banking Application: If your bank has a dedicated mobile banking application, download and install it on your smartphone or tablet. Log in to the app using your account credentials, and you will typically find your account balance displayed prominently on the app's homepage or account summary section.\n\n3. ATM (Automated Teller Machine): Visit an ATM associated with your bank. Insert your bank card into the ATM and enter your PIN. Select the option to check your account balance, and the machine will display your current balance on the screen.\n\n4. Phone Banking: Some banks provide phone banking services that allow you to check your account balance over the phone. Dial the designated phone number provided by your bank for banking inquiries, follow the automated prompts, and enter your account information when prompted. You will likely be given the option to check your account balance during the call.\n\n5. Bank Statement: If you receive paper or electronic bank statements, you can typically find your account balance listed on the statement. Review the most recent statement issued by your bank to access your account balance.\n\n Please choose one of the methods you are interested in to check your bank account balance.",
+               "Which of the following methods would you prefer to check your account balance: Online Banking, Mobile Banking Application, ATM (Automated Teller Machine), Phone Banking, or Bank Statement?",
+               "There are several methods available to check your account balance: Online Banking, Mobile Banking Application, ATM (Automated Teller Machine), Phone Banking, and Bank Statement. Please let me know which method you prefer, and I will provide you with the corresponding instructions.",
+               "To check your account balance, you can log in to your online banking account or mobile app. You can also visit one of our branches and inquire with a representative.",
+               "Your account balance can be found in your online banking account or mobile app. Alternatively, you can visit one of our branches and request this information from a representative.",
+               "Your account balance is the amount of money you have available in your account at a given time. You can check this balance online, through our mobile app, or by visiting one of our branches."
+
+            ]
+      },
+
+      {
+         "tag": "account_balance_online_banking",
+         "patterns":
+         ["online banking", "online bank"],
+         "responses":
+         [
+            "To check your bank account balance using online banking, follow these step-by-step instructions:\n\n1. Open your preferred web browser on your computer or mobile device.\n\n2. isit the official website of your bank. Ensure that you are accessing the legitimate website by verifying the URL and looking for security indicators such as a padlock symbol in the address bar.\n\n3. Look for the login or sign-in section on the bank's homepage. It is typically located at the top right corner or in a prominent area of the page.\n\n4. Enter your login credentials, which usually include your username or customer ID and password. If it's your first time logging in, you may need to go through a registration process to create an online banking account.\n\n5. Once logged in, you will be directed to your online banking dashboard or account overview page. This page provides an overview of your banking activities and account details.\n\n6. Locate the section that displays your account balance. It may be labeled as \"Account Balance,\" \"Balances,\" or something similar.\n\n7. The account balance should be prominently displayed next to your account information. It will show the current available balance in your bank account.\n\n8. Take note of any additional details displayed with the balance, such as the account type or any pending transactions that may affect the balance.\n\n9. If you want more detailed information about your transactions, recent activity, or specific account movements, navigate to the transaction history or statement section of your online banking portal."
+         ]
+      },
+      {
+         "tag": "account_balance_mobile_banking_aplication",
+         "patterns":
+         ["Mobile Banking Application", "MBA"],
+         "responses":
+         [
+            "To check your bank account balance using a Mobile Banking Application, follow these step-by-step instructions:\n\n1. Ensure that you have downloaded and installed the official Mobile Banking Application provided by your bank from your device's app store.\n\n2. Locate the Mobile Banking Application on your smartphone or tablet's home screen and tap to open it.\n\n3. On the login screen, enter your login credentials, which typically include your username or customer ID and password. If it's your first time logging in, you may need to go through a registration process to create an online banking account.\n\n4. Once logged in, you will be directed to the app's homepage or account summary section. This page provides an overview of your banking activities and account details.\n\n5. Look for the section that displays your account balance. It may be labeled as \"Account Balance,\" \"Balances,\" or something similar. This section is usually prominently displayed on the homepage.\n\n6. The account balance should be clearly visible next to your account information. It will show the current available balance in your bank account.\n\n7. Take note of any additional details displayed with the balance, such as the account type or any pending transactions that may affect the balance.\n\n8. If you wish to view more detailed information about your transactions, recent activity, or specific account movements, navigate to the transaction history or statement section within the Mobile Banking Application."
+         ]
+      },
+      {
+         "tag": "account_balance_ATM",
+         "patterns":
+         ["ATM", "Automated Teller Machine", "automated"],
+         "responses":
+         [
+            "To check your bank account balance at an ATM (Automated Teller Machine), follow these step-by-step instructions:\n\n1. Locate an ATM affiliated with your bank. You can often find ATMs at bank branches, retail locations, or other convenient spots. Look for the logo or signage of your bank on the ATM.\n\n2. Insert your bank card into the ATM's card slot. Ensure that you are using your own bank card associated with the account you wish to check the balance for.\n\n3. Follow the instructions displayed on the ATM screen. Typically, you will be prompted to enter your Personal Identification Number (PIN) using the keypad on the ATM.\n\n4. Once you have entered your PIN, the ATM will present you with several options on the screen. Look for the option that allows you to check your account balance. It may be labeled as \"Balance Inquiry\" or similar.\n\n5. Select the \"Balance Inquiry\" option by pressing the corresponding button on the ATM keypad.\n\n6. The ATM will process your request and retrieve your account balance information. After a few moments, the screen will display your current account balance.\n\n7. Take note of your account balance displayed on the screen. Some ATMs may provide a printed receipt with your balance information as well.\n\n8. If you need to perform any additional transactions or inquiries, such as withdrawing cash or printing a transaction history, you can select those options as needed.\n\n9. Once you have finished checking your account balance and any other desired transactions, remember to take your bank card from the ATM and collect any printed receipts. Safely secure your card and receipts to protect your account information."
+         ]
+      },
+      {
+         "tag": "account_balance_phone_banking_aplication",
+         "patterns":
+         ["Phone Banking", "Phone B"],
+         "responses":
+         [
+            "To check your bank account balance using Phone Banking, follow these step-by-step instructions:\n\n1. Locate the designated phone number for Phone Banking provided by your bank. This information is usually available on the bank's website, mobile banking app, or on your account documents.\n\n2. Dial the phone number using your phone's keypad and follow any automated prompts or menu options provided.\n\n3. When prompted, enter your account information, such as your account number or customer ID, using the phone's keypad. Follow the instructions carefully to ensure accurate input of your account details.\n\n4. Navigate through the menu options until you find the option to check your account balance. It may be labeled as \"Account Balance\" or similar.\n\n5. Select the option to check your account balance by following the corresponding prompts or entering the appropriate number on your phone's keypad.\n\n6. Wait for the automated system to process your request. It may take a few moments for your account balance to be retrieved.\n\n7. The system will provide you with your account balance information, which may be read out loud or displayed on the phone's screen.\n\n8. Listen to or note down your account balance for reference. If the balance is read out loud, ensure you are in a private and secure location to protect your account information.\n\n9. If you have any further inquiries or need to perform additional transactions, follow the prompts provided by the Phone Banking system."
+         ]
+      },
+
+
+      {
+         "tag": "bank_search_by_name_result_PKO",
+         "patterns": ["PKO", "pko", "Pko"],
+         "responses": [
+            "PKO Bank Polski - 80-463 Gdansk, Al. Rzeczypospolitej 33",
+            "PKO Bank Polski - 80-460 Gdansk, ul. Pilotow 3",
+            "PKO Bank Polski - 80-244 Gdansk, al. Grunwaldzka 105",
+            "PKO Bank Polski - 80-462 Gdansk, al. Jana Pawla II 3d"
+         ],
+         "context_filter": "bank_search_by_name_result_PKO"
+      },
+
+      {
+         "tag": "bank_search_contact_Rzeczypospolitej_PKO",
+         "patterns": ["Rzeczypospolitej 33"],
+         "responses": [
+            "58 343 84 42",
+            "58 343 84 41"
+         ],
+         "context_filter": "bank_search_contact_Rzeczypospolitej_result_PKO"
+      },
+      {
+         "tag": "bank_search_open_hours_Rzeczypospolitej_PKO",
+         "patterns": ["open hours Rzeczypospolitej 33", "open hours Rzeczypospolitej33", "open hours Rzeczypospolitej PKO"],
+         "responses": [
+            "poniedzialek-piatek: 09:00-17:00\nsobota-niedziela: nieczynne"
+         ],
+         "context_filter": "bank_search_open_hours_Rzeczypospolitej_result_PKO"
+      },
+
+      {
+         "tag": "bank_search_contact_Pilotow3_PKO",
+         "patterns": ["Pilotow3", "Pilotow 3"],
+         "responses": [
+            "800 302 302"
+         ],
+         "context_filter": "bank_search_contact_Pilotow3_result_PKO"
+      },
+      {
+         "tag": "bank_search_open_hours_Pilotow_PKO",
+         "patterns": ["open hours Pilotow3", "open hours Pilotow3", "open hours Pilotow PKO"],
+         "responses": [
+            "Open 24 hours"
+         ],
+         "context_filter": "bank_search_open_hours_Pilotow_result_PKO"
+      },
+
+      {
+         "tag": "bank_search_contact_Grunwaldzka105_PKO",
+         "patterns": ["Grunwaldzka 105", "Grunwaldzka105"],
+         "responses": [
+            "58 767 87 00"
+         ],
+         "context_filter": "bank_search_contact_Grunwaldzka105_result_PKO"
+      },
+      {
+         "tag": "bank_search_open_hours_Grunwaldzka10_PKO",
+         "patterns": ["open hours Grunwaldzka 105", "open hours Grunwaldzka105", "open hours Grunwaldzka PKO"],
+         "responses": [
+            "Poniedzialek: 08:00-15:00\nWtorek: 10:00-17:00\nŚroda: 08:00-15:00\nCzwartek: 10:00-17:00\nPiatek: 08:00-15:00\nSobota-niedziela: nieczynne"
+         ],
+         "context_filter": "bank_search_open_hours_Grunwaldzka10_result_PKO"
+      },
+
+
+      {
+         "tag": "bank_search_by_name_result_PEKAO",
+         "patterns": ["Pekao", "pekao", "Pekao"],
+         "responses": [
+            "Bank Pekao - Ul. Ogarna 116 80-826 Gdansk",
+            "Bank Pekao - Ul. Garncarska 23 80-894 Gdansk",
+            "Bank Pekao - Ul. Cieszynskiego 36 80-809 Gdansk",
+            "Bank Pekao - Ul. Kolobrzeska 43 80-391 Gdansk"
+         ],
+         "context_filter": "bank_search_by_name_result_PEKAO"
+      },
+
+      {
+         "tag": "bank_search_contact_Ogarna_PEKAO",
+         "patterns": ["Ul. Ogarna 116 80-826 Gdansk","Ogarna 116", "Ogarna116", "Ogarna"],
+         "responses": [
+            "58 660 27 08"
+         ],
+         "context_filter": "bank_search_contact_Ogarna_result_PEKAO"
+      },
+      {
+         "tag": "bank_search_open_hours_Ogarna_PEKAO",
+         "patterns": ["open hours Ul. Ogarna 116 80-826 Gdansk","open hours Ogarna 116", "open hours Ogarna116", "open hours Ogarna"],
+         "responses": [
+            "Poniedzialek-Piatek: 9.00-17.00\nSobota-niedziela: nieczynne"
+         ],
+         "context_filter": "bank_search_open_hours_Ogarna_result_PEKAO"
+      },
+
+      {
+         "tag": "bank_search_contact_Garncarska_PEKAO",
+         "patterns": ["Ul. Garncarska 23 80-894 Gdansk","Garncarska 23", "Garncarska23", "Garncarska"],
+         "responses": [
+            "58 660 27 00"
+         ],
+         "context_filter": "bank_search_contact_Garncarska_result_PEKAO"
+      },
+      {
+         "tag": "bank_search_open_hours_Garncarska_PEKAO",
+         "patterns": ["open hours Ul. Garncarska 23 80-894 Gdansk","open hour Garncarska 23", "open hour Garncarska23", "open hour Garncarska"],
+         "responses": [
+            "Poniedzialek: 8.00-18.00\nWtorek: 8.00-18.00\nSroda: 8.00-18.00\nCzwartek: 8.00-18.00\nPiatek: 8.00-18.00\nSobota-niedziela: nieczynne"
+         ],
+         "context_filter": "bank_search_open_hours_Garncarska_result_PEKAO"
+      },
+
+      {
+         "tag": "bank_search_contact_Cieszynskiego_PEKAO",
+         "patterns": ["Ul. Cieszynskiego 36 80-809 Gdansk","Cieszynskiego 36", "Cieszynskiego36", "Cieszynskiego"],
+         "responses": [
+            "58 660 27 03"
+         ],
+         "context_filter": "bank_search_contact_Cieszynskiegoa_result_PEKAO"
+      },
+      {
+         "tag": "bank_search_open_hours_Cieszynskiego_PEKAO",
+         "patterns": ["open hours Ul. Cieszynskiego 36 80-809 Gdansk","open hour Cieszynskiego 36", "open hour Cieszynskiego36", "open hour Cieszynskiego"],
+         "responses": [
+            "Poniedzialek: 8.00-18.00\nWtorek: 8.00-18.00\nSroda: 8.00-18.0\nCzwartek: 8.00-18.00\nPiatek: 8.00-18.00\nSobota-niedziela: nieczynne"
+         ],
+         "context_filter": "bank_search_open_hours_Cieszynskiego_result_PEKAO"
+      },
+
+      {
+         "tag": "bank_search_contact_Kolobrzeska_PEKAO",
+         "patterns": ["Kolobrzeska 43", "Kolobrzeska43", "Kolobrzeska","Ul. Kolobrzeska 43 80-391 Gdansk"],
+         "responses": [
+            "58 660 27 04"
+         ],
+         "context_filter": "bank_search_contact_Kolobrzeska_result_PEKAO"
+      },
+      {
+         "tag": "bank_search_open_hours_Kolobrzeska_PEKAO",
+         "patterns": ["open hours Kolobrzeska 43","open hour Kolobrzesk43", "open hour Kolobrzeska PEKAO", ",open hour Ul. Kolobrzeska 43 80-391 Gdansk"],
+         "responses": [
+            "Poniedzialek: 8.00-18.00\nWtorek: 8.00-18.00\nSroda: 8.00-18.00\nCzwartek: 8.00-18.00\nPiatek: 8.00-18.00\nSobota-niedziela: nieczynne"
+         ],
+         "context_filter": "bank_search_open_hours_Kolobrzeska_result_PEKAO"
+      },
+
+
+      {
+         "tag": "bank_search_by_name_result_ING",
+         "patterns": ["ING", "ing", "Ing"],
+         "responses": [
+            "ING - Aleja Grunwaldzka 56 80-241 Gdansk",
+            "ING - ul. Rajska 10 (Punkt ING Express w CH Madison) 80-850 Gdansk",
+            "ING - ul. Kolobrzeska 16A 80-394 Gdansk"
+         ],
+         "context_filter": "bank_search_by_name_result_ING"
+      },
+
+      {
+         "tag": "bank_search_contact_AlejaGrunwaldzka_ING",
+         "patterns": ["Aleja Grunwaldzka 56 80-241 Gdansk", "Aleja Grunwaldzka 56", "AlejaGrunwaldzka56","Aleja Grunwaldzka"],
+         "responses": [
+            "801 222 222"
+         ],
+         "context_filter": "bank_search_contact_AlejaGrunwaldzka_result_ING"
+      },
+      {
+         "tag": "bank_search_open_hours_AlejaGrunwaldzka_ING",
+         "patterns": ["open hours Aleja Grunwaldzka 56 80-241 Gdansk","open hour Aleja Grunwaldzka 56", "open hour Aleja Grunwaldzka", "open hour Aleja Grunwaldzka56"],
+         "responses": [
+            "Poniedzialek: 8.00-18.00\nWtorek: 8.00-18.00\nSroda: 8.00-18.00\nCzwartek: 8.00-18.00\nPiatek: 8.00-18.00\nSobota-niedziela: nieczynne"
+         ],
+         "context_filter": "bank_search_open_hours_AlejaGrunwaldzka_result_ING"
+      },
+
+      {
+         "tag": "bank_search_contact_Rajska_ING",
+         "patterns": ["ul. Rajska 10 (Punkt ING Express w CH Madison) 80-850 Gdansk", "Rajska 10", "Rajska10","Rajska"],
+         "responses": [
+            "48 32 357 00 69"
+         ],
+         "context_filter": "bank_search_contact_Rajska_result_ING"
+      },
+      {
+         "tag": "bank_search_open_hours_Rajska_ING",
+         "patterns": ["open hours ul. Rajska 10 (Punkt ING Express w CH Madison) 80-850 Gdansk","open hour Rajska 10", "open hour Rajska10", "open hour Rajska"],
+         "responses": [
+            "Poniedzialek-Piatek: 8.00-18.00\nSobota-niedziela: nieczynne"
+         ],
+         "context_filter": "bank_search_open_hours_Rajska_result_ING"
+      },
+
+      {
+         "tag": "bank_search_contact_Kolobrzeska_ING",
+         "patterns": ["ul. Kolobrzeska 16A 80-394 Gdansk", "Kolobrzeska 16A", "Kolobrzeska16A"],
+         "responses": [
+            "32 357 00 69"
+         ],
+         "context_filter": "bank_search_contact_Kolobrzeska_result_ING"
+      },
+      {
+         "tag": "bank_search_open_hours_Kolobrzeska_ING",
+         "patterns": ["open hours ul. Kolobrzeska 16A 80-394 Gdansk","open hour Kolobrzeska 16A", "open hour Kolobrzeska16A", "open hour Kolobrzeska ING"],
+         "responses": [
+            "Poniedzialek-Piatek: 8.00-18.00\nSobota-niedziela: nieczynne"
+         ],
+         "context_filter": "bank_search_open_hours_Kolobrzeska_result_ING"
+      },
+
+
+      {
+         "tag": "bank_search_by_name_result_MILLENIUM",
+         "patterns": ["Millenium", "millenium", "Millenium"],
+         "responses": [
+            "Millennium Bank - ul. Jaskowa Dolina 132 80-286 Gdansk",
+            "Millennium Bank - ul. Heweliusza 1-3 80-890 Gdansk",
+            "Millennium Bank - ul. Kolobrzeska 41B 80-391 Gdansk",
+            "Millennium Bank - ul. Gospody 2 80-344 Gdansk"
+         ],
+         "context_filter": "bank_search_by_name_result_MILLENIUM"
+      },
+
+      {
+         "tag": "bank_search_contact_JaskowaDolina_MILLENIUM",
+         "patterns": ["ul. Jaśkowa Dolina 132 80-286 Gdansk", " Jaśkowa Dolina 132", " Jaśkowa Dolina132"],
+         "responses": [
+            "801 331 331"
+         ],
+         "context_filter": "bank_search_contact_JaskowaDolina_result_MILLENIUM"
+      },
+      {
+         "tag": "bank_search_open_hours_JaskowaDolina_MILLENIUM",
+         "patterns": ["open hoursul. Jaskowa Dolina 132 80-286 Gdansk","open hour Jaskowa Dolina 132", "open hour JaskowaDolina132", "open hour Jaskowa Dolina"],
+         "responses": [
+            "Poniedzialek-sroda: 8.00-17.00\nCwartek-piatek: 9:00-18:00\nSobota-niedziela: nieczynne"
+         ],
+         "context_filter": "bank_search_open_hours_JaskowaDolina_result_MILLENIUM"
+      },
+
+      {
+         "tag": "bank_search_contact_Heweliusza_MILLENIUM",
+         "patterns": ["ul. Heweliusza 1-3 80-890 Gdansk", "Heweliusza1-3", "Heweliusza 1-3","Heweliusza1"],
+         "responses": [
+            "801 331 331"
+         ],
+         "context_filter": "bank_search_contact_Heweliusza_result_MILLENIUM"
+      },
+      {
+         "tag": "bank_search_open_hours_Heweliusza_MILLENIUM",
+         "patterns": ["open hours ul. Heweliusza 1-3 80-890 Gdansk","open hour Heweliusza1-3", "open hour Heweliusza"],
+         "responses": [
+            "Poniedzialek-wtorek: 9.00-17.00\nWtorek-piatek: 9:00-18:00\nSobota-niedziela: nieczynne"
+         ],
+         "context_filter": "bank_search_open_hours_Heweliusza_result_MILLENIUM"
+      },
+
+      {
+         "tag": "bank_search_contact_Kolobrzeska_MILLENIUM",
+         "patterns": ["ul. Kolobrzeska 41B 80-391 Gdansk", "Kolobrzeska 41B", "Kolobrzeska41B"],
+         "responses": [
+            "801 331 331"
+         ],
+         "context_filter": "bank_search_contact_Kolobrzeska_result_MILLENIUM"
+      },
+      {
+         "tag": "bank_search_open_hours_Kolobrzeska_MILLENIUM",
+         "patterns": ["open hours ul. Kolobrzeska 41B 80-391 Gdansk","open hour Kolobrzeska 41B", "open hour Kolobrzeska41B", "open hour Kolobrzeska Millenium"],
+         "responses": [
+            "Poniedzialek-sroda: 8.00-16.00\nCwartek-piatek: 9:00-17:00\nSobota-niedziela: nieczynne"
+         ],
+         "context_filter": "bank_search_open_hours_Kolobrzeska_result_MILLENIUM"
+      },
+
+      {
+         "tag": "bank_search_contact_Gospody_MILLENIUM",
+         "patterns": ["ul. Gospody 2 80-344 Gdansk", "Gospody 2", "Gospody2"],
+         "responses": [
+            "801 331 331"
+         ],
+         "context_filter": "bank_search_contact_Gospody_result_MILLENIUM"
+      },
+      {
+         "tag": "bank_search_open_hours_Gospody_MILLENIUM",
+         "patterns": ["open hours ul. Gospody 2 80-344 Gdansk","open hour Gospody 2", "open hour Gospody2", "open hour Gospody"],
+         "responses": [
+            "Poniedzialek-sroda: 8.00-17.00\nCwartek: 9:00-18:00\nPiatek: 8:00-15:00\nSobota-niedziela: nieczynne"
+         ],
+         "context_filter": "bank_search_open_hours_Gospody_result_MILLENIUM"
+      },
+
+
+      {
+      "tag": "contact_info",
+      "patterns":
+         ["Contact information", "Bank contacts", "Customer support", "How can I contact the bank?", "I need help with my account", "Can you provide customer support contact?", "Where can I find your contact details?"],
+      "responses":
+         ["For customer support or any inquiries, you can reach us at 123-456-7890 or email us at support@bank.com.", "Our customer support team can be reached at 123-456-7890 or via email at support@bank.com. Don't hesitate to contact us if you need any assistance.", "If you have any questions or need assistance, please don't hesitate to reach out to our customer support team. You can contact us at 123-456-7890 or email us at support@bank.com.", "Our contact information is as follows: Phone: 123-456-7890, Email: support@bank.com. Feel free to reach out to us for any assistance or inquiries.", "You can find our contact details on our website or reach out to our customer support team at 123-456-7890 or support@bank.com."]
+      },
+
+
+      {
+         "tag": "transaction_history",
+         "patterns": [
+            "Transaction history",
+            "Recent transactions",
+            "Show history"
+         ],
+         "responses": [
+            "Which of the following methods would you prefer to check your transaction history: Online Banking, Mobile Banking Application, ATM (Automated Teller Machine), Phone Banking, or Bank Statement?",
+            "there are several methods to check your recent transactions: Online Banking, Mobile Banking Application, ATM (Automated Teller Machine), Phone Banking, Bank Statement. Choose one you prefer the most and i will give you instruction",
+            "There are several methods available to check your transaction history: Online Banking, Mobile Banking Application, ATM (Automated Teller Machine), Phone Banking, and Bank Statement. Please let me know which method you prefer, and I will provide you with the corresponding instructions."
+         ]
+      },
+
+      {
+         "tag": "transaction_history_online_banking",
+         "patterns": [
+            "transaction Online Banking",
+            "Recent transactions Online Banking",
+            "Show history of transactions Online Banking"
+         ],
+         "responses": [
+            "To check your transaction history in Online Banking, follow these step-by-step instructions:\n\nOpen your preferred web browser on your computer or mobile device.\n\nVisit the official website of your bank. Ensure that you are accessing the legitimate website by verifying the URL and looking for security indicators such as a padlock symbol in the address bar.\n\nLocate the login or sign-in section on the bank's homepage. It is typically located at the top right corner or in a prominent area of the page.\n\nEnter your login credentials, which usually include your username or customer ID and password. If it's your first time logging in, you may need to go through a registration process to create an online banking account.\n\nOnce logged in, you will be directed to your online banking dashboard or account overview page. This page provides an overview of your banking activities and account details.\n\nLook for a section labeled \"Transaction History,\" \"Account Activity,\" or similar. It may be displayed as a tab or a link in the menu or navigation bar.\n\nClick on the \"Transaction History\" section to access your transaction history.\n\nDepending on the online banking interface, you may be able to customize the date range for which you want to view transactions. Select the desired date range or specify any specific transaction criteria.\n\nOnce you have selected the date range or specific criteria, click on the \"View\" or \"Search\" button to retrieve your transaction history.\n\nYour transaction history will be displayed, showing details such as transaction dates, descriptions, amounts, and the balance after each transaction. You may be able to sort or filter the transactions based on different parameters.\n\nTake the time to review your transaction history carefully. If you need more details about a specific transaction, you may be able to click on it to see additional information.\n\nIf you wish to print or download a copy of your transaction history, look for options such as \"Print,\" \"Download,\" or \"Export.\""
+            ]
+      },
+
+      {
+         "tag": "transaction_history_mobile_banking_application",
+         "patterns": [
+            "transaction Mobile Banking Application",
+            "Recent transactions Mobile Banking Application",
+            "Show history of transactions Mobile Banking Application"
+         ],
+         "responses": [
+            "To check your transaction history in a Mobile Banking Application, follow these step-by-step instructions:\n\nEnsure that you have downloaded and installed the official Mobile Banking Application provided by your bank from your device's app store.\n\nLocate the Mobile Banking Application on your smartphone or tablet's home screen and tap to open it.\n\nOn the login screen, enter your login credentials, such as your username or customer ID and password. If it's your first time logging in, you may need to go through a registration process to create an online banking account.\n\nOnce logged in, you will be directed to the app's homepage or account summary section. This page provides an overview of your banking activities and account details.\n\nLook for a menu option or tab labeled \"Transactions,\" \"History,\" or something similar. It may be represented by an icon or text.\n\nTap on the \"Transactions\" or \"History\" section to access your transaction history.\n\nDepending on the Mobile Banking Application interface, you may be able to customize the date range for which you want to view transactions. Select the desired date range or specify any specific transaction criteria.\n\nOnce you have selected the date range or specific criteria, tap on the \"View\" or \"Search\" button to retrieve your transaction history.\n\nYour transaction history will be displayed, showing details such as transaction dates, descriptions, amounts, and the balance after each transaction. You may be able to scroll through the transactions or use filters to refine your search.\n\nTake the time to review your transaction history carefully. If you need more details about a specific transaction, you may be able to tap on it to see additional information.\n\nSome Mobile Banking Applications allow you to export or share your transaction history. If desired, look for options such as \"Export,\" \"Share,\" or \"Send\" to save or send a copy of your transaction history.\n\nOnce you have finished reviewing your transaction history, you can navigate back to the main menu or home screen of the Mobile Banking Application.\n\nFor security reasons, it is recommended to log out of the Mobile Banking Application when you are finished. Look for the \"Logout\" or \"Sign Out\" option, typically located in the account settings or a similar menu."
+         ]
+      },
+
+      {
+         "tag": "transaction_history_ATM",
+         "patterns": [
+            "transaction ATM",
+            "Recent transactions ATM",
+            "Show history of transactions ATM",
+            "transaction Automated Teller Machine",
+            "Recent transactions Automated Teller Machine",
+            "Show history of transactions Automated Teller Machine"
+         ],
+         "responses": [
+            "To check your transaction history at an ATM (Automated Teller Machine), follow these step-by-step instructions:\n\nLocate an ATM affiliated with your bank. You can often find ATMs at bank branches, retail locations, or other convenient spots. Look for the logo or signage of your bank on the ATM.\n\nInsert your bank card into the ATM's card slot. Ensure that you are using your own bank card associated with the account for which you want to check the transaction history.\n\nEnter your Personal Identification Number (PIN) using the keypad on the ATM. Take care to enter the PIN accurately and shield the keypad from prying eyes.\n\nOnce you have entered your PIN, the ATM will present you with several options on the screen. Look for the option related to viewing your transaction history. It may be labeled as \"Transaction History,\" \"Account Activity,\" or something similar.\n\nSelect the \"Transaction History\" or relevant option by pressing the corresponding button on the ATM keypad.\n\nDepending on the ATM's interface, you may be prompted to choose the specific account for which you want to check the transaction history, especially if you have multiple accounts linked to your bank card. Use the keypad to select the desired account if prompted.\n\nThe ATM will process your request and retrieve your transaction history. This may take a few moments, especially if you have a significant transaction history.\n\nOnce the transaction history is retrieved, the ATM screen will display your recent transactions. The details provided may include transaction dates, descriptions, amounts, and the balance after each transaction.\n\nUse the navigational buttons or touchscreen (if available) to scroll through the transaction history and view additional transactions.\n\nIf you need a printed copy of your transaction history, most ATMs provide an option to print it. Look for a button labeled \"Print\" or an on-screen option to request a printed receipt of the transaction history.\n\nReview your transaction history carefully, paying attention to any discrepancies or unfamiliar transactions. If you have any concerns or questions about specific transactions, note down the relevant details for future reference.\n\nOnce you have finished checking your transaction history and any other desired transactions, ensure that you take your bank card from the ATM and collect any printed receipts. Safely secure your card and receipts to protect your account information."
+         ]
+      },
+
+      {
+         "tag": "transaction_history_phone_banking",
+         "patterns": [
+            "transaction Phone Banking",
+            "Recent transactions Phone Banking",
+            "Show history of transactions Phone Banking"
+         ],
+         "responses": [
+            "To check your transaction history using Phone Banking, follow these step-by-step instructions:\n\nLocate the designated phone number for Phone Banking provided by your bank. This information is usually available on the bank's website, mobile banking app, or on your account documents.\n\nDial the phone number using your phone's keypad and wait for the call to connect.\n\nOnce connected, you will be greeted by an automated system or a customer service representative. Follow any prompts or instructions provided by the system.\n\nWhen prompted, enter your account information, such as your account number or customer ID, using the phone's keypad. Follow the instructions carefully to ensure accurate input of your account details.\n\nNavigate through the menu options by listening to the automated system or following the instructions from the customer service representative. Look for an option related to checking your transaction history. It may be labeled as \"Transaction History,\" \"Account Activity,\" or something similar.\n\nSelect the option to check your transaction history by following the corresponding prompts or entering the appropriate number on your phone's keypad.\n\nDepending on the Phone Banking system, you may be asked to specify the date range or other criteria for the transaction history you want to review. Enter the necessary information using the keypad or follow the prompts.\n\nWait for the automated system to process your request. It may take a few moments for your transaction history to be retrieved.\n\nThe system will provide you with your transaction history information, which may be read out loud or provided as options to navigate through using the keypad.\n\nListen to or note down your transaction history details for reference. If the information is read out loud, ensure you are in a private and secure location to protect your account information.\n\nIf you have any further inquiries or need to perform additional transactions, follow the prompts provided by the Phone Banking system or ask the customer service representative.\n\nOnce you have checked your transaction history and completed any other desired interactions, end the call or follow the instructions to disconnect from Phone Banking."
+         ]
+      },
+
+      {
+         "tag": "Banking-PIN_Issue",
+         "patterns": [
+            "I cannot remember the personal identification number on my card",
+            "I cannot remember my card's PIN",
+            "What should I do if I have forgotten my credit card PIN?",
+            "I don't have my credit card PIN",
+            "A PIN didn't come with my credit card",
+            "I didn't get a PIN with my credit card",
+            "How can I find out the chip code for my card",
+            "I forgot the chip code for my credit card",
+            "can you tell me what my card PIN is",
+            "My card's secure code has been locked",
+            "cannot remember the pin on my card"
+         ],
+         "responses": [
+            "I'm sorry to hear that. You can reset your PIN by contacting your bank's customer service.",
+            "Unfortunately, I cannot provide you with your PIN for security reasons. You can contact your bank to reset it.",
+            "If you've forgotten your credit card PIN, you can reset it by contacting your bank's customer service.",
+            "If you don't have your credit card PIN, you can contact your bank to have a new one sent to you.",
+            "If you didn't receive a PIN with your credit card, you can contact your bank to have one sent to you.",
+            "To find out the chip code for your card, you can contact your bank's customer service.",
+            "If you've forgotten the chip code for your credit card, you can contact your bank's customer service.",
+            "For security reasons, I cannot tell you what your card's PIN is. You can contact your bank to reset it.",
+            "If your card's secure code has been locked, you can contact your bank's customer service to unlock it.",
+            "If you cannot remember the PIN on your card, you can reset it by contacting your bank's customer service.",
+            "If you have forgotten your banking PIN, here are some general steps you can take to resolve the issue:\n\n1. Contact your bank: Reach out to your bank's customer support as soon as possible. Use their designated helpline or visit your nearest branch. Explain that you have forgotten your PIN and need assistance. They will guide you through the necessary steps based on their specific procedures.\n\n2. Identity verification: Be prepared to provide identification information to verify your identity. This may include your full name, account number, Social Security number, or any other personal details that the bank may require. This step is crucial to ensure the security of your account.\n\n3. Reset options: Your bank may offer different options for resetting your PIN. They might ask you to visit a branch in person, where you may need to present identification documents. Alternatively, they could provide you with a temporary PIN over the phone or through other secure means to access your account.\n\n4. Follow instructions: Follow the instructions provided by your bank's customer support team carefully. They will guide you on the specific process for resetting your PIN. This might involve filling out forms, signing documents, or answering security questions.\n\n5. Protect your account: While going through the PIN reset process, it's important to take steps to secure your account. Avoid sharing personal information or account details with anyone who isn't authorized by your bank. Ensure that your contact information with the bank is up to date so they can reach you regarding your account"
+         ]
+      },
+
+       {
+         "tag": "Banking-Switch_Cards",
+         "patterns": [
+            "change credit card without applying again",
+            "I applied for a wrong credit card and now want to change to another card",
+            "I signed up for the wrong card can I change to a different credit card",
+            "can I change credit cards",
+            "switch to another bank credit card",
+            "change credit card without filling an application",
+            "already have a card want a better one",
+            "can I change my card to a Mastercard",
+            "can I change my card to a Visa",
+            "can I change my card to American Express",
+            "can my card be transferred to another credit card",
+            "cancel my current credit card and replace it with another",
+            "can I transfer to a low rate credit card",
+            "can I switch between credit cards"
+         ],
+         "responses": [
+            "Yes, you can switch to a different credit card. Please contact our customer service for assistance with the process.",
+            "Certainly, we can assist you with changing your credit card. Please get in touch with our customer service to initiate the process.",
+            "Absolutely, you can change your credit card to a different type. Please reach out to our customer service for guidance on the process.",
+            "Yes, it's possible to switch between credit cards. Please contact our customer service for assistance with the process.",
+            "To switch to another bank credit card, you can apply for the desired credit card and once approved, you can close your current credit card.",
+            "If you wish to change your credit card without filling out an application, please get in touch with our customer service.",
+            "If you already have a credit card and want a better one, please apply for the desired credit card and once approved, you can close your current credit card.",
+            "Yes, it's possible to change your card to a Mastercard. Please get in touch with our customer service for guidance on the process.",
+            "Yes, it's possible to change your card to a Visa. Please contact our customer service for assistance with the process.",
+            "Yes, it's possible to change your card to American Express. Please get in touch with our customer service for guidance on the process.",
+            "It's not possible to transfer your card to another credit card, but you can apply for the desired credit card and once approved, you can close your current credit card.",
+            "Yes, you can cancel your current credit card and replace it with another. Please contact our customer service for assistance with the process.",
+            "Yes, it's possible to transfer to a low rate credit card. Please apply for the desired credit card and once approved, you can close your current credit card.",
+            "Yes, you can switch between credit cards. Please contact our customer service for assistance with the process."
+         ]
+      },
+
+      {
+         "tag": "Banking-Card_Application",
+         "patterns": [
+            "need a credit card immediately",
+            "want to apply for a credit card",
+            "I want a credit card",
+            "how do I get a credit card",
+            "I would like to apply for a credit card",
+            "I want a new credit card",
+            "How do I apply for a credit card?",
+            "how can I obtain a credit card",
+            "where do I go to get a credit card",
+            "how do i go about getting a credit card?",
+            "I need to apply for a credit card",
+            "Can I apply for credit cards",
+            "help me open credit card",
+            "I need a credit card, how do I get one?",
+            "i want to apply for a new credit to replace my existing one"
+         ],
+         "responses": [
+            "To apply for a new credit card, you can visit our bank's website and fill out the online form or visit one of our branches where our staff will assist you in the application process.",
+            "I am happy to assist you in applying for a new credit card. You can do this online on our website or at our branch. The application process is simple and transparent, and our staff will be happy to assist you with it.",
+            "If you need a credit card immediately, you can visit our branch and submit your application in person. For online applications, the application process may take a few business days.",
+            "To open a new credit card, follow these general instructions:\n\n1. Research and compare credit cards: Start by researching different credit card options available to you. Look for cards that suit your financial needs, such as rewards, low interest rates, or specific benefits. Compare factors like annual fees, interest rates, rewards programs, and any additional terms and conditions.\n\n2. Check your credit score: Before applying for a credit card, it's a good idea to check your credit score. Most credit card issuers have minimum credit score requirements. You can obtain a free credit report from credit bureaus or use credit monitoring services to check your score. A higher credit score generally increases your chances of approval and better card options.\n\n3. Determine your eligibility: Once you have an idea of the credit card you want, review the eligibility criteria provided by the card issuer. This includes factors such as age, income requirements, and credit history. Ensure that you meet the necessary criteria before proceeding.\n\n4. Apply online or in person: Many credit card issuers allow you to apply online through their website. Visit the issuer's website and navigate to the credit card section. Fill out the application form with accurate personal and financial details, including your name, address, employment information, income, and Social Security number. Review the terms and conditions before submitting the application.\n\n5. Provide additional documentation: Depending on the credit card issuer's requirements, you may be asked to provide additional documentation to support your application. This can include proof of income, identification documents, and address verification. Follow the instructions provided by the issuer and submit the requested documents promptly.\n\n6. Wait for approval: After submitting your credit card application, the issuer will review your application and make a decision. This process can take a few days to a few weeks. If approved, you will receive your new credit card in the mail along with any additional instructions.\n\n7. Activate your credit card: Once you receive your credit card, you'll typically need to activate it before you can start using it. This can usually be done online or through a phone call to the card issuer. Follow the provided instructions to activate your card.\n\n8. Start using your credit card responsibly: After activation, you can begin using your credit card for purchases within the approved credit limit. Remember to use your credit card responsibly, making timely payments and keeping track of your expenses. Maintaining good credit habits will help you build a positive credit history and potentially qualify for better credit card offers in the future."
+         ]
+      },
+
+      {
+         "tag": "transfer",
+         "patterns": [
+            "I want to move money",
+            "I'd like to send funds.",
+            "I need to shift some money around",
+            "I want to transfer some cash",
+            "I'd like to move my money from one place to another",
+            "I need to send money to another account",
+            "I want to switch funds between accounts",
+            "I'd like to make a money transfer",
+            "I want to send money to a different account",
+            "I need to move some money from this account to another"
+         ],
+         "responses": [
+            "Banks offer various types of transfers to facilitate the movement of funds between accounts. Here are some common types of transfers:\n\n1. Peer-to-Peer (P2P) Transfers: P2P transfers enable you to send money directly to other individuals. \n\n2. Mobile Transfers: With the rise of mobile banking apps, banks now offer mobile transfers that enable you to move funds using your smartphone or tablet. \n\n3. Online Transfers: Many banks offer online transfer services through their internet banking platforms.\n\n Please specify the type of transfer you would like to make, and I will provide you with instructions tailored to your needs."
+         ]
+      },
+
+      {
+         "tag": "transfer_P2P",
+         "patterns": [
+            "I want to move money to my",
+            "I'd like to send funds to my.",
+            "I want to transfer some cash to my",
+            "I'd like to make a money transfer to my"
+         ],
+         "responses": [
+            "To make a peer-to-peer (P2P) transfer in general, follow these instructions:\n\n1. Choose a P2P payment service: Research and select a P2P payment service that suits your needs.\n\n2. Create an account: Sign up for an account with the chosen P2P payment service. Provide the required information, such as your name, email address, and phone number. Follow the instructions to verify your account, which may involve confirming your email or phone number.\n\n3. Link your funding source: Connect your bank account or debit card to the P2P payment service.\n\n4. Add recipients: To transfer money, you need to add the recipient's information. This can include their username, email address, phone number, or account number associated with the P2P service you're using.\n\n5. Specify the transfer amount: Enter the amount of money you want to transfer to the recipient. \n\n6. Add a note or description (optional): Some P2P payment services allow you to include a note or description for the transaction. \n\n7. Initiate the transfer: Follow the instructions within the P2P payment service to initiate the transfer. \n\n8. Confirm and authorize the transfer: Review the transfer details one last time before confirming.\n\n9. Verify completion",
+            "To make a P2P transfer in a few words:\n\n1. Choose a P2P payment service.\n2. Create an account and link your bank account.\n3. Add the recipient's information.\n4. Enter the transfer amount and confirm.\n5. Verify and authorize the transfer.\n6. Notify the recipient."
+         ]
+      },
+
+      {
+         "tag": "transfer_mobile_transfer",
+         "patterns": [
+            "I want to make mobile transfer",
+            "I want to transfer money using my phone",
+            "I want to make a transfer on my phone.",
+            "I'm interested in using mobile banking to send money.",
+            "I would like to transfer money using my mobile device",
+            "I need to send money using a mobile app.",
+            "I want to move funds using my smartphone.",
+            "I want to send money using mobile banking."
+         ],
+         "responses": [
+            "To make mobile transfers in a few words:\n\n1. Download a mobile banking app.\n2. Log in/Sign in.\n3. Link your bank account.\n4. Add the recipient's information.\n5. Enter the transfer amount and confirm.\n6. Verify and authorize the transfer.\n7. Notify the recipient.",
+            "To make mobile transfers with some additional details:\n\n1. Download/open a mobile banking app: Install a mobile banking app provided by your bank from your app store.\n\n2. Log in/sign in: Sign up for a new account within the app and log in using your credentials.\n\n3. Link your bank account: Connect your bank account to the mobile banking app by providing the required information, such as your account number and other necessary details.\n\n4. Add the recipient's information: Enter the recipient's details, such as their name, phone number, email address, or account number, depending on the app's options.\n\n5. Enter the transfer amount and confirm: Specify the amount of money you want to transfer and verify that the details are correct before proceeding.\n\n6. Verify and authorize the transfer: Depending on the app's security measures, you may need to provide additional verification, such as a PIN, fingerprint, or password, to authorize the transfer.\n\n7. Notify the recipient: Inform the recipient that you have made a mobile transfer and provide them with any necessary information they may need to receive the funds, such as the app name or transaction details."
+         ]
+      },
+
+      {
+         "tag": "transfer_online_transfer",
+         "patterns": [
+            "I want to send money online.",
+            "I'd like to move funds through online banking",
+            "I need to transfer money using the internet.",
+            "I want to make a digital transfer.",
+            "I'm interested in online money transfers.",
+            "I would like to send money electronically",
+            "I want to make a transfer through online banking.",
+            "I want to send money using online services."
+         ],
+         "responses": [
+            "To make online transfers in a few words:\n\n1. Access your online banking.\n2. Add the recipient's information.\n3. Enter the transfer amount and details.\n4. Confirm and authorize the transfer.\n5. Verify completion and keep a record.",
+            "To make online transfers with some additional details:\n\n1. Access your online banking: Log in to your bank's website or mobile app using your credentials.\n\n2. Add the recipient's information: Enter the recipient's name, account number, and any other required details. Double-check the accuracy of the information.\n\n3. Enter the transfer amount and details: Specify the amount you want to transfer and include any additional notes or reference information if necessary.\n\n4. Confirm and authorize the transfer: Review the transfer details and confirm that everything is accurate. Follow the prompts to authorize the transfer, which may involve entering a security code, password, or using biometric authentication.\n\n5. Verify completion and keep a record: After the transfer is initiated, take note of any confirmation or transaction reference number. Check your account balance or transaction history to ensure the transfer was completed successfully. Keep a record of the transfer details for your reference or future needs."
+         ]
+      },
+
+      {
+         "tag": "Customer_Profile-Change_Details",
+         "patterns": [
+            "I got divorced and need to change my name",
+            "I moved and need to update my address",
+            "live in a new apartment",
+            "moved to a new address",
+            "how do I change my name",
+            "how can I change my address",
+            "I got married and want to update my name"
+         ],
+         "responses": [
+            "To update your personal details such as your name or address, please log in to your account online and go to the 'Profile' or 'Settings' section. From there, you should be able to make the necessary changes.",
+            "If you need to change your name or address, you can do so by visiting one of our branches or by contacting our customer service team. Please bring along your identification documents and any other relevant paperwork to complete the process.",
+            "To change your name or address, please contact our customer service team. They will be able to guide you through the process and help you update your details as quickly and easily as possible."
+         ]
+      }
+   ]
+}
